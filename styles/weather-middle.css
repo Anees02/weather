@@ -1,0 +1,30 @@
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 3rem;
+    max-height: auto;
+    transition: max-height 10s;
+    
+}
+.weather-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.weather-image img{
+    max-width: 134.4px;
+    max-height: 134.4px;
+}
+.weather-temp{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.weather-location{
+    font-size: 2rem;
+
+}
