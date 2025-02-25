@@ -113,7 +113,7 @@ function toastMaker(res){
         toast.innerHTML = `<div class='toaster'>Please Wear a coat</div>`
     }
     setTimeout(()=>{
-        document.querySelector('.toast').remove();
+        document.querySelector('.toast').innerHTML = "";
     },6000);
 }   
 
